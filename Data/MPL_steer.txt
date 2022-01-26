@@ -1,0 +1,243 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.MultilayerPerceptron -L 0.3 -M 0.2 -N 500 -V 0 -S 0 -E 20 -H 7
+Relation:     oval_steer_th_br-weka.filters.unsupervised.attribute.Remove-R25-26
+Instances:    1366
+Attributes:   24
+              FL
+               B15
+               B30
+               B45
+               B60
+               B75
+               A90
+               A75
+               A60
+               A45
+               A30
+               A15
+               FR
+               vel-10
+               vel-9
+               vel-8
+               vel-7
+               vel-6
+               vel-5
+               vel-4
+               vel-3
+               vel-2
+               vel-1
+               steering_angle
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Linear Node 0
+    Inputs    Weights
+    Threshold    0.5753691522916867
+    Node 1    0.9417141053192581
+    Node 2    0.5293598792157348
+    Node 3    -0.952118981364274
+    Node 4    -0.7697355139005551
+    Node 5    -0.8435997974918712
+    Node 6    0.738173501421499
+    Node 7    1.116446998918032
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -1.6416650411686282
+    Attrib FL    0.12030494843154713
+    Attrib  B15    -1.034781314216374
+    Attrib  B30    -1.9911152679761186
+    Attrib  B45    -4.060939129984983
+    Attrib  B60    -1.110416986806659
+    Attrib  B75    6.933057462214536
+    Attrib  A90    0.729244914979423
+    Attrib  A75    1.3354021981641957
+    Attrib  A60    4.2021510736092987E-4
+    Attrib  A45    -1.2889071803644832
+    Attrib  A30    -0.10473398069089457
+    Attrib  A15    0.6137761214934372
+    Attrib  FR    -6.646856097770738
+    Attrib  vel-10    2.064615208604878
+    Attrib  vel-9    1.142923553711576
+    Attrib  vel-8    1.3162912427927502
+    Attrib  vel-7    -0.12607420975814826
+    Attrib  vel-6    -1.548310265591998
+    Attrib  vel-5    -1.3416211072464008
+    Attrib  vel-4    0.6419756120076768
+    Attrib  vel-3    -2.4116669872653964
+    Attrib  vel-2    -0.6641843107700535
+    Attrib  vel-1    2.3509262363956136
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    -1.1454020250077515
+    Attrib FL    -0.49441581971018284
+    Attrib  B15    -0.3545994970406611
+    Attrib  B30    -0.2146548534282582
+    Attrib  B45    -0.24320362890195804
+    Attrib  B60    3.36328121882882
+    Attrib  B75    1.7860424814741451
+    Attrib  A90    1.2820315407502818
+    Attrib  A75    0.6521204085865803
+    Attrib  A60    0.6921341054724833
+    Attrib  A45    0.6631954809168448
+    Attrib  A30    0.4733250565744589
+    Attrib  A15    0.9401429732517679
+    Attrib  FR    -0.44752928527882685
+    Attrib  vel-10    0.03467753337107134
+    Attrib  vel-9    0.07435350961386951
+    Attrib  vel-8    -0.06128130549478204
+    Attrib  vel-7    -0.12679957423563412
+    Attrib  vel-6    -0.2742760366951591
+    Attrib  vel-5    -0.0833026679626651
+    Attrib  vel-4    0.11554661520308447
+    Attrib  vel-3    -0.13816003664022938
+    Attrib  vel-2    -0.44544571424698665
+    Attrib  vel-1    0.39814094450188936
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    -1.8961454295466258
+    Attrib FL    4.421467211371978
+    Attrib  B15    1.4317512729666622
+    Attrib  B30    -0.7220881751671598
+    Attrib  B45    -0.32160068409468306
+    Attrib  B60    2.348912261413976
+    Attrib  B75    3.159529608022372
+    Attrib  A90    0.8196112892933491
+    Attrib  A75    3.0586392943182275
+    Attrib  A60    -4.003571316371308
+    Attrib  A45    2.318724073545598
+    Attrib  A30    -2.8882784124512186
+    Attrib  A15    2.060011287944273
+    Attrib  FR    2.731384987944899
+    Attrib  vel-10    1.6778786554378613
+    Attrib  vel-9    0.21376273516460012
+    Attrib  vel-8    0.6898556005743344
+    Attrib  vel-7    -0.5036468148017649
+    Attrib  vel-6    -1.3275930122254047
+    Attrib  vel-5    -1.0307323278441276
+    Attrib  vel-4    0.3586343211499018
+    Attrib  vel-3    -1.726507174874761
+    Attrib  vel-2    -0.28394953620566593
+    Attrib  vel-1    -1.3468188227766784
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    3.6418956715828945
+    Attrib FL    5.413258960008305
+    Attrib  B15    -1.7348900135432903
+    Attrib  B30    -6.334539581930896
+    Attrib  B45    -7.141974992053994
+    Attrib  B60    0.167437273027436
+    Attrib  B75    12.430573726757212
+    Attrib  A90    2.7320802566028153
+    Attrib  A75    -2.576233999570938
+    Attrib  A60    -1.2213979955103962
+    Attrib  A45    -3.7719412511994657
+    Attrib  A30    -4.917951833099059
+    Attrib  A15    -0.07260279120259794
+    Attrib  FR    -5.6121251545670106
+    Attrib  vel-10    3.6198014359482715
+    Attrib  vel-9    4.896701758907461
+    Attrib  vel-8    3.1556422918766867
+    Attrib  vel-7    0.48534227282870473
+    Attrib  vel-6    -0.7342839560031758
+    Attrib  vel-5    -0.7279142927097539
+    Attrib  vel-4    -0.4433031723899559
+    Attrib  vel-3    -1.0379294364125196
+    Attrib  vel-2    -1.5063908707684683
+    Attrib  vel-1    -0.6706851593194457
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    -6.025079552584131
+    Attrib FL    9.637963876153437
+    Attrib  B15    2.842610093655592
+    Attrib  B30    -4.721016996025375
+    Attrib  B45    -9.558286097259028
+    Attrib  B60    0.5279679308846279
+    Attrib  B75    2.2855894867032034
+    Attrib  A90    -1.0068584077788587
+    Attrib  A75    1.0763136408637257
+    Attrib  A60    0.3029376679796111
+    Attrib  A45    -2.70679140230926
+    Attrib  A30    -0.056058275409984606
+    Attrib  A15    2.5604667465629114
+    Attrib  FR    2.336843714198455
+    Attrib  vel-10    -7.556683602527671
+    Attrib  vel-9    -5.400568102369818
+    Attrib  vel-8    -4.40303329175273
+    Attrib  vel-7    -2.210298666471596
+    Attrib  vel-6    0.7946022221521698
+    Attrib  vel-5    0.8606216783193985
+    Attrib  vel-4    0.3248790336684346
+    Attrib  vel-3    3.90043520628538
+    Attrib  vel-2    1.3230465261500044
+    Attrib  vel-1    1.9331954666801918
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    -4.892257713402553
+    Attrib FL    -2.877505736007345
+    Attrib  B15    -2.1403798507280443
+    Attrib  B30    -1.011567926002091
+    Attrib  B45    2.8711500281704394
+    Attrib  B60    4.420134122657615
+    Attrib  B75    -7.830946417101318
+    Attrib  A90    3.6175023961434163
+    Attrib  A75    1.541990111571618
+    Attrib  A60    1.395571784612859
+    Attrib  A45    0.605420313504947
+    Attrib  A30    0.5356629508198912
+    Attrib  A15    3.900622934061211
+    Attrib  FR    -1.055272073558379
+    Attrib  vel-10    -3.3654302026583043
+    Attrib  vel-9    -2.1745836971140395
+    Attrib  vel-8    -2.511991467005712
+    Attrib  vel-7    -1.9603337833614394
+    Attrib  vel-6    -0.1951976612338332
+    Attrib  vel-5    -1.0865038614041023
+    Attrib  vel-4    -0.9651441200039229
+    Attrib  vel-3    -1.1183109456836784
+    Attrib  vel-2    0.5985865940155408
+    Attrib  vel-1    -0.2831260337402245
+Sigmoid Node 7
+    Inputs    Weights
+    Threshold    -4.398759404077137
+    Attrib FL    3.937203086880999
+    Attrib  B15    0.2560247782899732
+    Attrib  B30    -2.1569668799294486
+    Attrib  B45    -3.9982754157484974
+    Attrib  B60    -0.854793735375116
+    Attrib  B75    0.9483335402233848
+    Attrib  A90    0.295191688166608
+    Attrib  A75    0.03875522142444085
+    Attrib  A60    0.8886292054836404
+    Attrib  A45    -0.10650509549989577
+    Attrib  A30    -0.1314092996226863
+    Attrib  A15    -1.1676786910374428
+    Attrib  FR    1.021046051816688
+    Attrib  vel-10    1.6393727483418055
+    Attrib  vel-9    0.5755496986641937
+    Attrib  vel-8    1.2530169559058657
+    Attrib  vel-7    0.24864173107967943
+    Attrib  vel-6    0.6841419242742405
+    Attrib  vel-5    0.6710342497014513
+    Attrib  vel-4    -0.7321072398644921
+    Attrib  vel-3    3.1434733499671683
+    Attrib  vel-2    -1.661362229296065
+    Attrib  vel-1    -6.062166502972393
+Class 
+    Input
+    Node 0
+
+
+Time taken to build model: 1.5 seconds
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                  0.8779
+Mean absolute error                      0.0392
+Root mean squared error                  0.0556
+Relative absolute error                 40.5024 %
+Root relative squared error             48.929  %
+Total Number of Instances             1366     
+
